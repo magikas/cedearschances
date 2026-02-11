@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+venv/
+monthly_data_cache.parquet
