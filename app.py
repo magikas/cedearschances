@@ -17,7 +17,7 @@ warnings.filterwarnings("ignore")
 
 # ─── PAGE CONFIG ─────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Stock Monthly Analyzer",
+    page_title="Monthly Cedears - Merval Mágico",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -947,8 +947,19 @@ with st.sidebar:
 
 
 # ─── MAIN ─────────────────────────────────────────────────────────────────────
-st.markdown("# 📈 Monthly Stock Analyzer")
-st.markdown("<div style='color:#64748b; font-family:Space Mono; font-size:0.85rem'>Análisis de rendimiento mensual · Correlaciones históricas · 18 años</div>", unsafe_allow_html=True)
+st.markdown("# 📈 Monthly Cedears — Merval Mágico")
+st.markdown("""
+<div style='margin-bottom: 1.5rem;'>
+    <a href="https://x.com/MervalMagico" target="_blank" 
+       style="text-decoration: none; color: #94a3b8; font-family: 'Space Mono', monospace; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 8px; transition: color 0.3s;">
+       <span style="font-size: 1.1rem;">𝕏</span> Seguime en x.com/MervalMagico
+    </a>
+    <style>
+        a:hover { color: #22d3ee !important; } /* Efecto hover color cyan */
+    </style>
+</div>
+""", unsafe_allow_html=True)
+
 st.markdown("---")
 
 # Load tickers
